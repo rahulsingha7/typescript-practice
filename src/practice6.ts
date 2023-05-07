@@ -9,7 +9,7 @@ interface Person {
 const persons: Person[] = [
   { name: "rahul", age: 23, email: "rahul@gmail.com" },
   { name: "raj", age: 23, email: "raj@gmail.com" },
-  { name: "sourav", age: 23, email: "sourav@gmail.com" },
+  { name: "neela", age: 22, email: "neela@gmail.com" },
 ];
 
 function emailCheck(persons: Person[], email: string): Person | null {
