@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "name": "practice-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start" : "ts-node-dev --respawn --transpile-only server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
